@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@200;400;700&display=swap');
+
+h1, h2, h3{
+    
+    font-family:'Oswald';
+}
+
+.overlay h1{
+    font-size: 5.5em;
+}
+
+section{
+    margin: 5% 0px;
+}
+.overlay{
+    position: absolute;
+    z-index: 1;
+    background: #5f0000ba;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align:center;
+    color: #fff;
+    width: 100%;
+}
+.plecaTitle{
+    background: #7c0000;
+    text-align:center;
+    color: #fff;
+    width: 100%;
+    padding: 3% 0px;
+}
+
+.carousel{
+    position: absolute;
+    z-index: 0;
+}
+.card{
+    margin: auto;
+}
+
+.sectImages{
+    background: #403f3f;
+    padding: 3%;
+    text-align: center;
+    color: #fff;
+}
+
+.textBio{
+    align-self: center;
+}
+
+/*creditos a NMonst4*/
+.btn:focus, .btn:active, button:focus, button:active {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  
+  #image-gallery .modal-footer{
+    display: block;
+  }
+  
+  .thumb{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }

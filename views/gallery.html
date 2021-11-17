@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="/stylesheets/estilos.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
+    <title>About a son: Gallery</title>
+</head>
+<body>
+    
+   <!--navegador-->
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="/index.html">HOME</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/works.html">Works</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Photo Gallery</a>
+          </li>
+         
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--end navegador-->
+  <div class="plecaTitle">
+    <h1>"About the gallery..."</h1>
+  </div>
+  <main class="container">
+    
+        <div class="row">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" 
+                       data-image="/images/kurt1.jpg"
+                       data-target="#image-gallery">
+                        <img class="img-thumbnail"
+                             src="/images/kurt1.jpg"
+                             alt="Another alt text">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" 
+                       data-image="/images/kurt2.jpg"
+                       data-target="#image-gallery">
+                        <img class="img-thumbnail"
+                             src="/images/kurt2.jpg"
+                             alt="Another alt text">
+                    </a>
+                </div>
+    
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" 
+                       data-image="/images/nirvana.jpg"
+                       data-target="#image-gallery">
+                        <img class="img-thumbnail"
+                             src="/images/nirvana.jpg"
+                             alt="Another alt text">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" 
+                       data-image="/images/kurt-movie.jpg"
+                       data-target="#image-gallery">
+                        <img class="img-thumbnail"
+                             src="/images/kurt-movie.jpg"
+                             alt="Another alt text">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" 
+                       data-image="/images/DISCO1.jpg"
+                       data-target="#image-gallery">
+                        <img class="img-thumbnail"
+                             src="/images/disco2.jpg"
+                             alt="Another alt text">
+                    </a>
+                </div>
+    
+    
+    
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" 
+                       data-image="/images/disco3.jpg"
+                       data-target="#image-gallery">
+                        <img class="img-thumbnail"
+                             src="/images/disco3.jpg"
+                             alt="Another alt text">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" 
+                       data-image="/images/disco4.jpg"
+                       data-target="#image-gallery">
+                        <img class="img-thumbnail"
+                             src="/images/disco4.jpg"
+                             alt="Another alt text">
+                    </a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" 
+                       data-image="/images/disco5.jpg"
+                       data-target="#image-gallery">
+                        <img class="img-thumbnail"
+                             src="/images/disco5.jpg"
+                             alt="Another alt text">
+                    </a>
+                </div>
+                
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" 
+                       data-image="/images/disco6.jpg"
+                       data-target="#image-gallery">
+                        <img class="img-thumbnail"
+                             src="/images/disco6.jpg"
+                             alt="Another alt text">
+                    </a>
+                </div>
+    
+            
+                
+                
+            </div>
+    
+    
+            <div class="modal fade" id="image-gallery" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="image-gallery-title"></h4>
+                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img id="image-gallery-image" class="img-responsive col-md-12" src="">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary float-left" id="show-previous-image"><i class="fa fa-arrow-left"></i>
+                            </button>
+    
+                            <button type="button" id="show-next-image" class="btn btn-secondary float-right"><i class="fa fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+  </main>
+  
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+
+    </body>
+</html>
